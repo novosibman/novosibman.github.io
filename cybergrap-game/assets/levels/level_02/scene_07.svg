@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00f2fe"/>
+            <stop offset="100%" stop-color="#4facfe"/>
+        </linearGradient>
+        <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff0844"/>
+            <stop offset="100%" stop-color="#ffb199"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Stars to hit and catch -->
+    <polygon id="star_1" points="200,160 215,200 255,200 220,225 235,265 200,240 165,265 180,225 145,200 185,200" fill="#facc15" data-cx="200" data-cy="210" data-r="24" />
+    <polygon id="star_2" points="400,140 415,180 455,180 420,205 435,245 400,220 365,245 380,205 345,180 385,180" fill="#facc15" data-cx="400" data-cy="190" data-r="24" />
+    <polygon id="star_3" points="600,160 615,200 655,200 620,225 635,265 600,240 565,265 580,225 545,200 585,200" fill="#facc15" data-cx="600" data-cy="210" data-r="24" />
+
+    <!-- Breakable glass bricks (hp=1) -->
+    <rect id="glass_1" class="breakable" data-hp="1" x="150" y="320" width="120" height="30" fill="rgba(56, 189, 248, 0.45)" rx="4"/>
+    <rect id="glass_2" class="breakable" data-hp="1" x="340" y="320" width="120" height="30" fill="rgba(56, 189, 248, 0.45)" rx="4"/>
+    <rect id="glass_3" class="breakable" data-hp="1" x="530" y="320" width="120" height="30" fill="rgba(56, 189, 248, 0.45)" rx="4"/>
+
+    <!-- Breakable stone bricks (hp=2) -->
+    <rect id="stone_1" class="breakable" data-hp="2" x="245" y="380" width="140" height="30" fill="#f59e0b" rx="4"/>
+    <rect id="stone_2" class="breakable" data-hp="2" x="415" y="380" width="140" height="30" fill="#f59e0b" rx="4"/>
+
+    <!-- Indestructible metallic bumpers (restitution=1.0, friction=0.0) -->
+    <polygon id="metal_left_bumper" points="60,500 180,450 140,540" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0" />
+    <polygon id="metal_right_bumper" points="740,500 620,450 660,540" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0" />
+    <circle id="metal_central_core" cx="400" cy="580" r="35" fill="url(#neonPink)" data-restitution="1.0" data-friction="0.0" />
+</svg>

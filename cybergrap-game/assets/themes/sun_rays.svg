@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="sun-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stopColor="#ffffff" stopOpacity="1"/>
+      <stop offset="35%" stopColor="#fef08a" stopOpacity="0.9"/>
+      <stop offset="70%" stopColor="#f59e0b" stopOpacity="0.6"/>
+      <stop offset="100%" stopColor="#f59e0b" stopOpacity="0"/>
+    </radialGradient>
+    <linearGradient id="ray-grad" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#ffffff" stopOpacity="0.9"/>
+      <stop offset="100%" stopColor="#f59e0b" stopOpacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Radiant Aura -->
+  <circle cx="100" cy="100" r="95" fill="url(#sun-glow)"/>
+  <!-- Central Sun Disk -->
+  <circle cx="100" cy="100" r="38" fill="#fffbeb" stroke="#fef08a" stroke-width="4"/>
+</svg>

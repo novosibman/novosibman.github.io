@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <path id="star_1" d="m359.3,369.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffff00"/>
+  <path id="star_2" d="m189.3,208.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="star_3" d="m429.3,208.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="star_4" d="m259.3,159.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ff7f00"/>
+  <rect id="br_svg_7" height="70" width="10" y="270" x="160" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00"/>
+  <path id="star_5" d="m189.3,288.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path d="m359.3,159.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ff7f00" id="star_6"/>
+  <path d="m259.3,369.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffff56" id="star_7"/>
+  <path d="m429.3,288.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500" id="star_8"/>
+  <rect opacity="0.25" height="80" width="180" y="200" x="230" stroke-width="2" stroke="#7f0000" fill="#719b6b" id="svg_14"/>
+  <rect height="69" width="11" y="201" x="529" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_16"/>
+  <path d="m309.16,300.51l10.38,0l3.2,-9.85l3.21,9.85l10.37,0l-8.39,6.09l3.2,9.86l-8.39,-6.09l-8.39,6.09l3.2,-9.86l-8.39,-6.09l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500" id="star_9"/>
+  <rect height="20" width="60" y="270" x="100" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_23"/>
+  <path d="m309.3,139.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ff7f00" id="star_10"/>
+  <rect height="20" width="130" y="320" x="170" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_28"/>
+  <rect height="70" width="10" y="341" x="230" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_29"/>
+  <rect height="70" width="10" y="200" x="100" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_30"/>
+  <rect height="20" width="160" y="391" x="240" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_31"/>
+  <rect height="20" width="60" y="270" x="480" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_32"/>
+  <rect height="20" width="130" y="320" x="340" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_33"/>
+  <rect height="70" width="10" y="270" x="470" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_35"/>
+  <rect height="69" width="10" y="342" x="400" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_36" transform="matrix(1, 0, 0, 1, 0, 0) matrix(1, 0, 0, 1, 0, 0) matrix(1, 0, 0, 1, 0, 0)"/>
+  <rect height="20" width="60" y="131" x="170" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_38"/>
+  <rect height="20" width="160" y="81" x="240" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_39"/>
+  <rect height="20" width="60" y="131" x="410" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_41"/>
+  <rect height="70" width="10" y="131" x="160" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_42"/>
+  <rect height="70" width="10" y="81" x="230" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_43"/>
+  <rect height="70" width="10" y="131" x="470" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_44"/>
+  <rect height="70" width="10" y="81" x="400" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#257c00" id="br_svg_45"/>
+  <rect height="20" width="60" y="179.3" x="100.8" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_2"/>
+  <rect height="20" width="60" y="179.3" x="480.8" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#c468e2" id="svg_3"/>
+ </g>
+</svg>

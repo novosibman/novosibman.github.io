@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="160" height="80">
+    <defs>
+        <!-- Metallic Alien Saucer Disc Gradient -->
+        <linearGradient id="ufoSaucerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#c084fc"/>
+            <stop offset="25%" stop-color="#9333ea"/>
+            <stop offset="65%" stop-color="#581c87"/>
+            <stop offset="100%" stop-color="#2e1065"/>
+        </linearGradient>
+
+        <!-- Translucent Cockpit Canopy Dome Gradient -->
+        <linearGradient id="ufoDomeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75"/>
+            <stop offset="35%" stop-color="#818cf8" stop-opacity="0.35"/>
+            <stop offset="75%" stop-color="#c084fc" stop-opacity="0.15"/>
+            <stop offset="100%" stop-color="#a855f7" stop-opacity="0.4"/>
+        </linearGradient>
+
+        <!-- Downward Antigravity Tractor Beam Gradient -->
+        <linearGradient id="ufoTractorBeamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+            <stop offset="45%" stop-color="#a855f7" stop-opacity="0.35"/>
+            <stop offset="100%" stop-color="#ec4899" stop-opacity="0.05"/>
+        </linearGradient>
+
+        <!-- Alien Plasma Blaster Gradient -->
+        <linearGradient id="ufoPlasmaBlasterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#7c3aed"/>
+            <stop offset="40%" stop-color="#c084fc"/>
+            <stop offset="80%" stop-color="#ec4899"/>
+            <stop offset="100%" stop-color="#38bdf8"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 1. Antigravity Hover Emitter & Downward Tractor Beam under the Saucer -->
+    <!-- Downward tractor light cone -->
+    <polygon points="64,60 96,60 118,76 42,76" fill="url(#ufoTractorBeamGrad)" opacity="0.7"/>
+    <!-- Glowing gravity rings -->
+    <ellipse cx="80" cy="67" rx="34" ry="4.5" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-dasharray="5 3" opacity="0.85"/>
+    <ellipse cx="80" cy="73" rx="46" ry="4" fill="none" stroke="#c084fc" stroke-width="1.2" stroke-dasharray="7 4" opacity="0.6"/>
+    <!-- Central ventral gravity emitter pod -->
+    <ellipse cx="80" cy="60" rx="20" ry="5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.2" opacity="0.95"/>
+    <ellipse cx="80" cy="60" rx="10" ry="2.2" fill="#ffffff" opacity="0.95"/>
+
+    <!-- 2. Lateral Plasma Thrusters (left_engine & right_engine) for horizontal flight -->
+    <path id="left_engine" d="M 22 45 L 6 49 L 22 53 Z" fill="#ec4899" stroke="#38bdf8" stroke-width="1.2"/>
+    <ellipse cx="22" cy="49" rx="2" ry="3.5" fill="#38bdf8"/>
+
+    <path id="right_engine" d="M 138 45 L 154 49 L 138 53 Z" fill="#ec4899" stroke="#38bdf8" stroke-width="1.2"/>
+    <ellipse cx="138" cy="49" rx="2" ry="3.5" fill="#38bdf8"/>
+
+    <!-- 3. Flying Saucer Elliptical Disc Hull (platform_3): Width 120, Height 24 -->
+    <path id="platform_3" d="M 20 49 C 20 42 42 37 80 37 C 118 37 140 42 140 49 C 140 56 118 61 80 61 C 42 61 20 56 20 49 Z" fill="url(#ufoSaucerGrad)" stroke="#f472b6" stroke-width="2.5"/>
+
+    <!-- Saucer metallic contour bevels & surface styling -->
+    <path d="M 26 47 C 36 41 56 39 80 39 C 104 39 124 41 134 47" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 24 51 C 32 58 54 60 80 60 C 106 60 128 58 136 51" fill="none" stroke="#2e1065" stroke-width="2" opacity="0.8"/>
+    <ellipse cx="80" cy="49" rx="54" ry="9" fill="none" stroke="#ec4899" stroke-width="1" stroke-dasharray="10 4" opacity="0.75"/>
+
+    <!-- 4. Saucer Perimeter Navigation Lights (Chain of glowing alien portholes) -->
+    <circle cx="30" cy="48" r="2.8" fill="#38bdf8" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="43" cy="51" r="3.2" fill="#facc15" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="58" cy="53" r="3.4" fill="#ec4899" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="73" cy="54" r="3.5" fill="#38bdf8" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="87" cy="54" r="3.5" fill="#facc15" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="102" cy="53" r="3.4" fill="#ec4899" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="117" cy="51" r="3.2" fill="#38bdf8" stroke="#ffffff" stroke-width="0.8"/>
+    <circle cx="130" cy="48" r="2.8" fill="#facc15" stroke="#ffffff" stroke-width="0.8"/>
+
+    <!-- 5. Ammo Energy Cells: Cart 3 has exactly 3 balls (ball_1 .. ball_3) -->
+    <circle id="ball_1" cx="42" cy="42" r="4.2" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_2" cx="54" cy="41" r="4.2" fill="#c084fc" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_3" cx="66" cy="40" r="4.2" fill="#ec4899" stroke="#ffffff" stroke-width="1.5"/>
+
+    <!-- 6. Highly Visible Stylized Cyber-Cat Alien UFO Pilot inside Cockpit -->
+    <g id="cyber_cat" transform="translate(58, 4)">
+        <!-- Upward curling tail with glowing alien power ring -->
+        <path d="M 40 33 C 48 30 54 19 50 10 C 46 3 38 4 36 8 C 34 12 38 17 42 17" fill="none" stroke="#f472b6" stroke-width="3.5" stroke-linecap="round"/>
+        <circle cx="42" cy="17" r="3.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1.2"/>
+
+        <!-- Sitting cat body on cockpit pilot seat in bright cyber suit -->
+        <path d="M 10 36 L 10 24 C 10 16 16 13 22 13 C 28 13 34 16 35 24 C 37 28 41 31 43 36 Z" fill="#e2e8f0" stroke="#ec4899" stroke-width="2.2"/>
+        <!-- Pilot chest armor plate -->
+        <ellipse cx="22" cy="24" rx="8" ry="7" fill="#38bdf8" stroke="#ffffff" stroke-width="1.2"/>
+        <ellipse cx="34" cy="30" rx="7" ry="5" fill="#f8fafc" stroke="#f472b6" stroke-width="1.8"/>
+
+        <!-- Front paws on saucer flight console -->
+        <ellipse cx="14" cy="35" rx="5" ry="3" fill="#ffffff" stroke="#ec4899" stroke-width="1.5"/>
+        <ellipse cx="24" cy="35" rx="5" ry="3" fill="#ffffff" stroke="#ec4899" stroke-width="1.5"/>
+
+        <!-- Tall Cat ears with alien communicators -->
+        <polygon points="10,12 15,-4 20,9" fill="#f472b6" stroke="#ec4899" stroke-width="1.8"/>
+        <polygon points="12,9 15,0 19,8" fill="#fce7f3"/>
+        <polygon points="23,9 28,-4 33,12" fill="#f472b6" stroke="#ec4899" stroke-width="1.8"/>
+        <polygon points="25,8 28,0 31,9" fill="#fce7f3"/>
+        <!-- Mini alien antenna on ear tip -->
+        <circle cx="15" cy="-4" r="2.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1"/>
+        <circle cx="28" cy="-4" r="2.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1"/>
+
+        <!-- Enlarged Visible Cat head in bright cyber-white with neon pink border -->
+        <circle id="cat_head" cx="22" cy="14" r="16" fill="#f8fafc" stroke="#f472b6" stroke-width="2.5"/>
+
+        <!-- Glowing alien cyber visor -->
+        <polygon points="9,10 20,10 18,18 10,18" fill="#00f2fe" stroke="#0284c7" stroke-width="1"/>
+        <polygon points="24,10 35,10 34,18 26,18" fill="#00f2fe" stroke="#0284c7" stroke-width="1"/>
+        <line x1="20" y1="13" x2="24" y2="13" stroke="#00f2fe" stroke-width="2.5"/>
+        <line x1="11" y1="13" x2="33" y2="13" stroke="#ffffff" stroke-width="1.5" opacity="0.95"/>
+
+        <!-- Cute neon whiskers -->
+        <line x1="7" y1="18" x2="-3" y2="16" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="7" y1="22" x2="-2" y2="24" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="37" y1="18" x2="47" y2="16" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round"/>
+        <line x1="37" y1="22" x2="46" y2="24" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round"/>
+
+        <!-- Cute pink cat nose -->
+        <polygon points="20,19 24,19 22,22" fill="#ec4899"/>
+
+        <!-- Cyber Collar with glowing pendant -->
+        <path d="M 14 26 C 18 29 26 29 30 26" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="22" cy="28.5" r="2.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.2"/>
+    </g>
+
+    <!-- 7. Translucent Flying Saucer Cockpit Glass Canopy Dome -->
+    <!-- Semi-transparent glass dome tint (opacity 0.2) letting the cat clearly shine through -->
+    <path id="cockpit_dome_glass" d="M 42 43 C 42 8 58 0 80 0 C 102 0 118 8 118 43 Z" fill="#38bdf8" opacity="0.2"/>
+    <!-- Canopy glowing glass contour frame -->
+    <path d="M 42 43 C 42 8 58 0 80 0 C 102 0 118 8 118 43 Z" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.8"/>
+    <!-- Canopy glass glossy specular reflection lines -->
+    <path d="M 50 22 C 56 10 66 5 80 5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <ellipse cx="88" cy="8" rx="2.5" ry="1.5" fill="#ffffff" opacity="0.95"/>
+    <!-- Dome console base rim -->
+    <path d="M 44 43 C 48 38 64 36 80 36 C 96 36 112 38 116 43" fill="none" stroke="#ec4899" stroke-width="1.6" opacity="0.9"/>
+
+    <!-- 8. Alien Plasma Blaster Turret (Rotating Cannon) -->
+    <!-- Mounted on right side deck of the Saucer, rotates to aim and fire plasma shots -->
+    <g id="gun_group" transform="translate(112, 38) rotate(-90)">
+        <!-- Rotating Cannon Turret: path#gun_1 -->
+        <!-- Futuristic alien plasma ray emitter with twin focusing accelerator coils -->
+        <path id="gun_1" d="M -6 -5 L 0 -5 L 3 -7 L 8 -7 L 8 -5 L 14 -5 L 17 -8 L 22 -8 L 22 -5 L 26 -6 L 30 -8 L 30 8 L 26 6 L 22 5 L 22 8 L 17 8 L 14 5 L 8 5 L 8 7 L 3 7 L 0 5 L -6 5 Z" fill="url(#ufoPlasmaBlasterGrad)" stroke="#38bdf8" stroke-width="1.8"/>
+
+        <!-- Gun rotation axis (circle#axis_1): Alien glowing power pivot -->
+        <circle id="axis_1" cx="0" cy="0" r="4.5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.2"/>
+
+        <!-- Muzzle projectile spawn point (circle#shot_1) -->
+        <circle id="shot_1" cx="30" cy="0" r="3.5" fill="#00f2fe"/>
+    </g>
+</svg>

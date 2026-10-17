@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#10b981"/>
+            <stop offset="100%" stop-color="#06b6d4"/>
+        </linearGradient>
+    </defs>
+
+    <polygon id="star_1" points="160,180 172,210 205,210 178,230 188,260 160,240 132,260 142,230 115,210 148,210" fill="#facc15" data-cx="160" data-cy="220" data-r="22" />
+    <polygon id="star_2" points="320,150 332,180 365,180 338,200 348,230 320,210 292,230 302,200 275,180 308,180" fill="#facc15" data-cx="320" data-cy="190" data-r="22" />
+    <polygon id="star_3" points="480,150 492,180 525,180 498,200 508,230 480,210 452,230 462,200 435,180 468,180" fill="#facc15" data-cx="480" data-cy="190" data-r="22" />
+    <polygon id="star_4" points="640,180 652,210 685,210 658,230 668,260 640,240 612,260 622,230 595,210 628,210" fill="#facc15" data-cx="640" data-cy="220" data-r="22" />
+
+    <!-- Checkerboard breakables -->
+    <rect id="glass_1" class="breakable" data-hp="1" x="180" y="320" width="90" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="stone_1" class="breakable" data-hp="2" x="300" y="320" width="90" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="glass_2" class="breakable" data-hp="1" x="420" y="320" width="90" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="stone_2" class="breakable" data-hp="2" x="540" y="320" width="90" height="26" fill="#f59e0b" rx="4"/>
+
+    <rect id="stone_3" class="breakable" data-hp="2" x="240" y="370" width="90" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="glass_3" class="breakable" data-hp="1" x="360" y="370" width="90" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="stone_4" class="breakable" data-hp="2" x="480" y="370" width="90" height="26" fill="#f59e0b" rx="4"/>
+
+    <!-- Double bouncing cylinders -->
+    <circle id="cyl_1" cx="260" cy="520" r="38" fill="url(#neonEmerald)" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="cyl_2" cx="540" cy="520" r="38" fill="url(#neonEmerald)" data-restitution="1.0" data-friction="0.0"/>
+</svg>

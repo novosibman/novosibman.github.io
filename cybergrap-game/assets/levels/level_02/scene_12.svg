@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00f2fe"/>
+            <stop offset="100%" stop-color="#4facfe"/>
+        </linearGradient>
+        <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff0844"/>
+            <stop offset="100%" stop-color="#ffb199"/>
+        </linearGradient>
+        <linearGradient id="coreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ec4899"/>
+            <stop offset="50%" stop-color="#8b5cf6"/>
+            <stop offset="100%" stop-color="#3b82f6"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 6 Stars in Cyber Core constellation -->
+    <polygon id="star_1" points="400,76 406,91 423,93 410,103 414,119 400,111 386,119 390,103 377,93 394,91" fill="#facc15" data-cx="400" data-cy="100" data-r="24" />
+    <polygon id="star_2" points="240,128 246,142 261,143 249,153 253,168 240,160 227,168 231,153 219,143 234,142" fill="#facc15" data-cx="240" data-cy="150" data-r="22" />
+    <polygon id="star_3" points="560,128 566,142 581,143 569,153 573,168 560,160 547,168 551,153 539,143 554,142" fill="#facc15" data-cx="560" data-cy="150" data-r="22" />
+    <polygon id="star_4" points="190,218 196,232 211,233 199,243 203,258 190,250 177,258 181,243 169,243 184,232" fill="#facc15" data-cx="190" data-cy="240" data-r="22" />
+    <polygon id="star_5" points="610,218 616,232 631,233 619,243 623,258 610,250 597,258 601,243 589,243 604,232" fill="#facc15" data-cx="610" data-cy="240" data-r="22" />
+    <polygon id="star_6" points="400,188 406,202 421,203 409,213 413,228 400,220 387,228 391,213 379,203 394,202" fill="#facc15" data-cx="400" data-cy="210" data-r="22" />
+
+    <!-- Multi-tiered Bastion Breakable Armor -->
+    <rect id="core_glass_1" class="breakable" data-hp="1" x="130" y="300" width="110" height="26" fill="rgba(56, 189, 248, 0.55)" rx="4"/>
+    <rect id="core_stone_left" class="breakable" data-hp="2" x="260" y="300" width="120" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="core_stone_right" class="breakable" data-hp="2" x="420" y="300" width="120" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="core_glass_2" class="breakable" data-hp="1" x="560" y="300" width="110" height="26" fill="rgba(56, 189, 248, 0.55)" rx="4"/>
+
+    <rect id="core_keystone_left" class="breakable" data-hp="3" x="200" y="350" width="180" height="28" fill="#ef4444" rx="4"/>
+    <rect id="core_keystone_right" class="breakable" data-hp="3" x="420" y="350" width="180" height="28" fill="#ef4444" rx="4"/>
+
+    <rect id="core_glass_mid" class="breakable" data-hp="1" x="310" y="400" width="180" height="26" fill="rgba(56, 189, 248, 0.55)" rx="4"/>
+
+    <!-- Boss Arena Kinetic Core & Slanted Deflector Wings -->
+    <circle id="cyber_core_reactor" cx="400" cy="510" r="44" fill="url(#coreGradient)" data-restitution="1.0" data-friction="0.0"/>
+    <rect id="core_wing_left" x="110" y="460" width="160" height="22" transform="rotate(30 190 471)" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0"/>
+    <rect id="core_wing_right" x="530" y="460" width="160" height="22" transform="rotate(-30 610 471)" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0"/>
+
+    <polygon id="core_wedge_left" points="60,560 150,510 130,590" fill="url(#neonPink)" data-restitution="1.0" data-friction="0.0" />
+    <polygon id="core_wedge_right" points="740,560 650,510 670,590" fill="url(#neonPink)" data-restitution="1.0" data-friction="0.0" />
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <defs>
+    <linearGradient id="c3-grad" x1="0" y1="0" x2="0" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#ffffff" stopOpacity="0.9"/>
+      <stop offset="70%" stopColor="#f1f5f9" stopOpacity="0.85"/>
+      <stop offset="100%" stopColor="#cbd5e1" stopOpacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <path d="M 30 65 
+           Q 15 65 15 50 
+           Q 15 38 28 34 
+           Q 35 18 58 18 
+           Q 75 10 98 18 
+           Q 112 12 128 18 
+           Q 150 14 162 30 
+           Q 185 34 185 52 
+           Q 185 65 160 65 Z" 
+        fill="url(#c3-grad)"/>
+</svg>

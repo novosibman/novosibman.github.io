@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <!-- Granite Alpha Mask for CSS/SVG/Canvas masking -->
+        <mask id="granite-mask">
+            <!-- White base: full transmission -->
+            <rect width="120" height="120" fill="#ffffff"/>
+            
+            <!-- Dark speckles: modulate opacity to reveal rock grains -->
+            <circle cx="12" cy="18" r="2.5" fill="#444444"/>
+            <polygon points="28,14 34,10 32,20" fill="#666666"/>
+            <circle cx="54" cy="22" r="3" fill="#222222"/>
+            <circle cx="102" cy="28" r="2" fill="#555555"/>
+            <polygon points="18,48 24,42 22,54" fill="#333333"/>
+            <circle cx="42" cy="56" r="3.2" fill="#777777"/>
+            <polygon points="68,44 74,38 72,50" fill="#222222"/>
+            <circle cx="92" cy="58" r="2.8" fill="#555555"/>
+            <circle cx="16" cy="84" r="3.5" fill="#333333"/>
+            <polygon points="38,82 46,78 44,90" fill="#666666"/>
+            <circle cx="64" cy="92" r="2.4" fill="#222222"/>
+            <circle cx="108" cy="98" r="3.1" fill="#444444"/>
+
+            <circle cx="8" cy="38" r="1.5" fill="#000000"/>
+            <polygon points="22,26 25,23 24,28" fill="#000000"/>
+            <circle cx="48" cy="12" r="1.8" fill="#111111"/>
+            <circle cx="62" cy="34" r="1.4" fill="#000000"/>
+            <polygon points="88,24 92,21 90,27" fill="#111111"/>
+            <circle cx="114" cy="16" r="1.6" fill="#000000"/>
+            <circle cx="56" cy="74" r="1.7" fill="#111111"/>
+            <polygon points="80,66 84,62 82,70" fill="#000000"/>
+            <circle cx="104" cy="76" r="1.5" fill="#111111"/>
+            <circle cx="30,114" r="1.6" fill="#000000"/>
+            <circle cx="78,112" r="1.8" fill="#111111"/>
+            <polygon points="98,108 102,104 100,112" fill="#000000"/>
+        </mask>
+    </defs>
+    <rect width="120" height="120" fill="#000000" mask="url(#granite-mask)"/>
+</svg>

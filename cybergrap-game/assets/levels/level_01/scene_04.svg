@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <!-- Created with Uoyan Toolz  - https://novosibman.github.io -->
+  <g id="el_1790353955877_0" data-name="Group 1">
+  <rect x="310" y="100" width="20" height="300" id="svg_1" stroke="#7f0000" stroke-width="2" fill="#00ff7f" opacity="0.5" />
+  <rect x="170" y="240" width="300" height="20" id="svg_3" stroke="#7f0000" stroke-width="2" fill="#00ff7f" opacity="0.5" />
+  </g>
+  <polygon points="240,140 245,153 259,154 249,163 252,176 240,169 228,176 231,163 221,154 235,153" id="star_1" stroke="#EF4444" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+  <polygon points="400,300 405,313 419,314 409,323 412,336 400,329 388,336 391,323 381,314 395,313" id="star_4" stroke="#EF4444" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+  <polygon points="240,300 245,313 259,314 249,323 252,336 240,329 228,336 231,323 221,314 235,313" id="star_2" stroke="#EF4444" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+  <polygon points="400,140 405,153 419,154 409,163 412,176 400,169 388,176 391,163 381,154 395,153" id="star_3" stroke="#EF4444" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+</svg>

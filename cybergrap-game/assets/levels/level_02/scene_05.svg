@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <!-- Star Pentagon -->
+    <polygon id="star_1" points="400,100 412,130 445,130 418,150 428,180 400,160 372,180 382,150 355,130 388,130" fill="#facc15" data-cx="400" data-cy="140" data-r="22" />
+    <polygon id="star_2" points="240,180 252,210 285,210 258,230 268,260 240,240 212,260 222,230 195,210 228,210" fill="#facc15" data-cx="240" data-cy="220" data-r="22" />
+    <polygon id="star_3" points="560,180 572,210 605,210 578,230 588,260 560,240 532,260 542,230 515,210 548,210" fill="#facc15" data-cx="560" data-cy="220" data-r="22" />
+    <polygon id="star_4" points="300,280 312,310 345,310 318,330 328,360 300,340 272,360 282,330 255,310 288,310" fill="#facc15" data-cx="300" data-cy="320" data-r="22" />
+    <polygon id="star_5" points="500,280 512,310 545,310 518,330 528,360 500,340 472,360 482,330 455,310 488,310" fill="#facc15" data-cx="500" data-cy="320" data-r="22" />
+
+    <rect id="barrier_1" class="breakable" data-hp="2" x="200" y="380" width="180" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="barrier_2" class="breakable" data-hp="2" x="420" y="380" width="180" height="26" fill="#f59e0b" rx="4"/>
+
+    <circle id="bumper_center" cx="400" cy="490" r="40" fill="#ec4899" data-restitution="1.0" data-friction="0.0"/>
+    <polygon id="bumper_triangle_1" points="100,520 200,480 180,560" fill="#06b6d4" data-restitution="1.0" data-friction="0.0"/>
+    <polygon id="bumper_triangle_2" points="700,520 600,480 620,560" fill="#06b6d4" data-restitution="1.0" data-friction="0.0"/>
+</svg>

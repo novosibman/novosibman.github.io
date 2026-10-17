@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <polygon points="320,200 325,213 339,214 329,223 332,236 320,229 308,236 311,223 301,214 315,213" id="star_1" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" fill="#FFCD03" />
+  <rect x="200" y="260" width="240" height="20" id="br_rect_1" stroke="#AF4444" stroke-width="2" fill="rgba(17, 16, 130, 0.7)" />
+</svg>

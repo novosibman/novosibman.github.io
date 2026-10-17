@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+  <defs>
+    <linearGradient id="c1-grad" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#ffffff" stopOpacity="0.95"/>
+      <stop offset="65%" stopColor="#f0f9ff" stopOpacity="0.9"/>
+      <stop offset="100%" stopColor="#dbeafe" stopOpacity="0.8"/>
+    </linearGradient>
+    <filter id="c1-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <g filter="url(#c1-shadow)">
+    <!-- Base volumetric cloud puffs -->
+    <path d="M 40 80 
+             Q 20 80 20 60 
+             Q 20 42 36 38 
+             Q 45 15 75 16 
+             Q 95 8 120 18 
+             Q 135 10 155 18 
+             Q 185 10 195 35 
+             Q 220 40 220 62 
+             Q 220 80 195 80 Z" 
+          fill="url(#c1-grad)"/>
+    <!-- Highlight puff -->
+    <path d="M 50 40 Q 75 22 105 24 Q 130 18 150 26 Q 140 40 115 42 Q 85 45 50 40 Z" 
+          fill="#ffffff" fill-opacity="0.6"/>
+  </g>
+</svg>

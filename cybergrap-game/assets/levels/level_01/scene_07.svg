@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <!-- Created with Uoyan Toolz  - https://novosibman.github.io -->
+  <polygon points="80,220 85,233 99,234 89,243 92,256 80,249 68,256 71,243 61,234 75,233" id="star_1" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <polygon points="240,160 245,173 259,174 249,183 252,196 240,189 228,196 231,183 221,174 235,173" id="star_2" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <polygon points="400,160 405,173 419,174 409,183 412,196 400,189 388,196 391,183 381,174 395,173" id="star_3" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <polygon points="560,220 565,233 579,234 569,243 572,256 560,249 548,256 551,243 541,234 555,233" id="star_4" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <polygon points="180,300 185,313 199,314 189,323 192,336 180,329 168,336 171,323 161,314 175,313" id="star_5" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <polygon points="320,300 325,313 339,314 329,323 332,336 320,329 308,336 311,323 301,314 315,313" id="star_6" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <polygon points="460,300 465,313 479,314 469,323 472,336 460,329 448,336 451,323 441,314 455,313" id="star_7" stroke="#F97316" stroke-width="3" stroke-linejoin="round" fill="#61FF81" />
+  <circle cx="80" cy="320" r="40" id="circle_1" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="560" cy="320" r="40" id="circle_2" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="400" cy="260" r="40" id="circle_3" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="240" cy="260" r="40" id="circle_4" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="80" cy="160" r="40" id="circle_5" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="180" cy="400" r="40" id="circle_6" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="460" cy="400" r="40" id="circle_7" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="560" cy="160" r="40" id="circle_9" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="320" cy="400" r="40" id="circle_8" stroke="#1697FA" stroke-width="3" fill="rgba(241, 92, 255, 0.75)" />
+  <circle cx="100" cy="400" r="28" id="br_circle_10" class="breakable" stroke="#1697FA" stroke-width="3" fill="rgba(247, 255, 97, 0.72)" />
+  <circle cx="40" cy="400" r="28" id="br_circle_14" class="breakable" stroke="#1697FA" stroke-width="3" fill="rgba(247, 255, 97, 0.72)" />
+  <circle cx="600" cy="400" r="28" id="br_circle_15" class="breakable" stroke="#1697FA" stroke-width="3" fill="rgba(247, 255, 97, 0.72)" />
+  <circle cx="400" cy="340" r="28" id="br_circle_11" class="breakable" stroke="#1697FA" stroke-width="3" fill="rgba(247, 255, 97, 0.72)" />
+  <circle cx="240" cy="340" r="28" id="br_circle_12" class="breakable" stroke="#1697FA" stroke-width="3" fill="rgba(247, 255, 97, 0.72)" />
+  <circle cx="540" cy="400" r="28" id="br_circle_13" class="breakable" stroke="#1697FA" stroke-width="3" fill="rgba(247, 255, 97, 0.72)" />
+</svg>

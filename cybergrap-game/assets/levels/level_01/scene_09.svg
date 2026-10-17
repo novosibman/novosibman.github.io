@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480">
+  <!-- Created with Uoyan Toolz  - https://novosibman.github.io -->
+  <rect x="80" y="460" width="120" height="20" id="rect_2" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <rect x="400" y="360" width="120" height="20" id="rect_3" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <rect x="240" y="300" width="120" height="20" id="rect_5" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <rect x="80" y="240" width="120" height="20" id="rect_6" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <rect x="240" y="180" width="120" height="20" id="rect_7" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <rect x="400" y="120" width="120" height="20" id="rect_8" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <rect x="240" y="400" width="120" height="20" id="rect_4" stroke="#1FFFFB" stroke-width="2" fill="rgba(5, 165, 240, 0.72)" />
+  <polygon points="140,292 147,310 167,311 152,324 156,343 140,333 124,343 128,324 113,311 133,310" id="star_1" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="140,400 145,413 159,414 149,423 152,436 140,429 128,436 131,423 121,414 135,413" id="star_2" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="300,340 305,353 319,354 309,363 312,376 300,369 288,376 291,363 281,354 295,353" id="star_3" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="300,240 305,253 319,254 309,263 312,276 300,269 288,276 291,263 281,254 295,253" id="star_4" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="300,120 305,133 319,134 309,143 312,156 300,149 288,156 291,143 281,134 295,133" id="star_5" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="140,152 147,170 167,171 152,184 156,203 140,193 124,203 128,184 113,171 133,170" id="star_6" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="460,400 465,413 479,414 469,423 472,436 460,429 448,436 451,423 441,414 455,413" id="star_7" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="460,280 465,293 479,294 469,303 472,316 460,309 448,316 451,303 441,294 455,293" id="star_8" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <polygon points="460,172 467,190 487,191 472,204 476,223 460,213 444,223 448,204 433,191 453,190" id="star_9" stroke="#DAFF1F" stroke-width="2" stroke-linejoin="round" fill="#F06B05" />
+  <rect x="400" y="460" width="120" height="20" id="br_rect_9" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="540" y="380" width="20" height="60" id="br_rect_11" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="40" y="300" width="20" height="60" id="br_rect_12" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="540" y="200" width="20" height="60" id="br_rect_19" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="40" y="120" width="20" height="60" id="br_rect_20" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="540" y="120" width="20" height="60" id="br_rect_17" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="540" y="280" width="20" height="60" id="br_rect_14" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="40" y="220" width="20" height="60" id="br_rect_15" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="40" y="380" width="20" height="60" id="br_rect_13" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+  <rect x="240" y="460" width="120" height="20" id="br_rect_10" stroke="#DAFF1F" stroke-width="2" fill="rgba(35, 204, 16, 0.86)" class="breakable" />
+</svg>

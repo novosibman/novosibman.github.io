@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="160" height="80">
+    <defs>
+        <!-- Heavy Industrial Bulldozer CAT Yellow Gradient -->
+        <linearGradient id="dozerYellowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fde047"/>
+            <stop offset="25%" stop-color="#facc15"/>
+            <stop offset="70%" stop-color="#ca8a04"/>
+            <stop offset="100%" stop-color="#854d0e"/>
+        </linearGradient>
+
+        <!-- Heavy Armored Steel Chassis Gradient -->
+        <linearGradient id="dozerSteelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#334155"/>
+            <stop offset="50%" stop-color="#1e293b"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+        </linearGradient>
+
+        <!-- Exhaust Pipe Metal Gradient -->
+        <linearGradient id="exhaustPipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1e293b"/>
+            <stop offset="35%" stop-color="#475569"/>
+            <stop offset="70%" stop-color="#334155"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+        </linearGradient>
+
+        <!-- Caterpillar Track Belt Pattern -->
+        <pattern id="treadPattern" width="6" height="8" patternUnits="userSpaceOnUse">
+            <line x1="1" y1="0" x2="1" y2="8" stroke="#0f172a" stroke-width="1.8"/>
+            <line x1="4" y1="0" x2="4" y2="8" stroke="#64748b" stroke-width="1"/>
+        </pattern>
+    </defs>
+
+    <!-- 1. Heavy Caterpillar Crawler Tracks (Нижняя ходовая часть) -->
+    <!-- Heavy track outer rubber/steel envelope band -->
+    <rect x="10" y="55" width="134" height="21" rx="10.5" fill="#0f172a" stroke="#ca8a04" stroke-width="2.5"/>
+    <rect x="14" y="57" width="126" height="17" rx="8.5" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+
+    <!-- Caterpillar track cleat teeth -->
+    <path d="M 12 55 L 142 55 M 12 76 L 142 76" stroke="#475569" stroke-width="2" stroke-dasharray="4 3"/>
+
+    <!-- 4 Track Road Wheels / Rollers (#wheel_0 .. #wheel_3) -->
+    <circle id="wheel_0" cx="24" cy="65.5" r="8" fill="#0f172a" stroke="#facc15" stroke-width="2"/>
+    <circle cx="24" cy="65.5" r="3.2" fill="#ca8a04"/>
+    <circle id="wheel_1" cx="58" cy="65.5" r="7.5" fill="#0f172a" stroke="#eab308" stroke-width="2"/>
+    <circle cx="58" cy="65.5" r="3" fill="#ca8a04"/>
+    <circle id="wheel_2" cx="92" cy="65.5" r="7.5" fill="#0f172a" stroke="#eab308" stroke-width="2"/>
+    <circle cx="92" cy="65.5" r="3" fill="#ca8a04"/>
+    <circle id="wheel_3" cx="126" cy="65.5" r="8" fill="#0f172a" stroke="#facc15" stroke-width="2"/>
+    <circle cx="126" cy="65.5" r="3.2" fill="#ca8a04"/>
+
+    <!-- 2. Dual Side Thrusters for horizontal motion physics -->
+    <path id="left_engine" d="M 14 44 L 4 48 L 14 52 Z" fill="#ca8a04" stroke="#facc15" stroke-width="1"/>
+    <path id="right_engine" d="M 146 44 L 156 48 L 146 52 Z" fill="#ca8a04" stroke="#facc15" stroke-width="1"/>
+
+    <!-- 3. Heavy Armored Bulldozer Body Hull (#platform_6) -->
+    <!-- Heavy machine chassis: wide solid body from X=14 to 138, height 25 -->
+    <path id="platform_6" d="M 14 56 L 14 38 C 14 34 18 32 23 32 L 104 32 L 138 38 L 144 56 Z" fill="url(#dozerYellowGrad)" stroke="#78350f" stroke-width="2.5"/>
+
+    <!-- Industrial Warning Hazard Caution Stripes on side panel -->
+    <rect x="20" y="47" width="112" height="7" rx="1.5" fill="#18181b"/>
+    <path d="M 22 54 L 28 47 M 32 54 L 38 47 M 42 54 L 48 47 M 52 54 L 58 47 M 62 54 L 68 47 M 72 54 L 78 47 M 82 54 L 88 47 M 92 54 L 98 47 M 102 54 L 108 47 M 112 54 L 118 47 M 122 54 L 128 47" stroke="#facc15" stroke-width="2.5"/>
+
+    <!-- Front Dozer Blade Push Push-Arm & Heavy Curved Dozer Scoop (Отвал бульдозера) -->
+    <!-- Heavy hydraulic push arm -->
+    <path d="M 112 48 L 140 48 L 145 56 L 120 56 Z" fill="#1e293b" stroke="#ca8a04" stroke-width="1.5"/>
+    <circle cx="120" cy="52" r="2.2" fill="#ca8a04" stroke="#0f172a" stroke-width="1"/>
+    <!-- Heavy curved steel blade plate with cutting edge -->
+    <path d="M 140 28 C 146 38 147 48 144 64 L 148 64 C 152 48 150 36 144 28 Z" fill="url(#dozerSteelGrad)" stroke="#facc15" stroke-width="1.8"/>
+    <!-- Blade teeth / corner bit -->
+    <polygon points="144,64 148,64 149,67 143,67" fill="#facc15" stroke="#78350f" stroke-width="1"/>
+
+    <!-- 4. Ammo Energy Cells: Cart 6 has exactly 5 balls (ball_1 .. ball_5) -->
+    <circle id="ball_1" cx="30" cy="40" r="4.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_2" cx="42" cy="40" r="4.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_3" cx="54" cy="40" r="4.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_4" cx="66" cy="40" r="4.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_5" cx="78" cy="40" r="4.2" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+
+    <!-- 5. Operator Cabin & Cyber-Cat Bulldozer Driver -->
+    <!-- Heavy ROPS Safety Roll Cage / Cabin Pillars -->
+    <path d="M 40 32 L 44 8 L 88 8 L 94 32 Z" fill="#0f172a" stroke="#ca8a04" stroke-width="2.5" opacity="0.95"/>
+    <!-- Cabin tinted safety glass window -->
+    <polygon points="46,12 86,12 90,30 43,30" fill="#38bdf8" stroke="#ca8a04" stroke-width="1" opacity="0.45"/>
+    <!-- Roof protection bar -->
+    <line x1="42" y1="8" x2="90" y2="8" stroke="#facc15" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Sitting Operator Cyber-Cat in Construction Safety Helmet -->
+    <g id="cyber_cat" transform="translate(46, 2)">
+        <!-- Upward curling tail with yellow hazard beacon -->
+        <path d="M 40 33 C 48 30 54 19 50 10 C 46 3 38 4 36 8 C 34 12 38 17 42 17" fill="none" stroke="#eab308" stroke-width="3.5" stroke-linecap="round"/>
+        <circle cx="42" cy="17" r="3" fill="#ef4444" stroke="#ffffff" stroke-width="1.2"/>
+
+        <!-- Sitting cat body in heavy overalls -->
+        <path d="M 10 36 L 10 24 C 10 16 16 13 22 13 C 28 13 34 16 35 24 C 37 28 41 31 43 36 Z" fill="#1e293b" stroke="#ca8a04" stroke-width="2"/>
+        <ellipse cx="34" cy="30" rx="8" ry="5.5" fill="#334155" stroke="#eab308" stroke-width="1.8"/>
+
+        <!-- Front paws on hydraulic dozer joysticks -->
+        <ellipse cx="14" cy="35" rx="5" ry="2.8" fill="#ca8a04" stroke="#ffffff" stroke-width="1.5"/>
+        <ellipse cx="24" cy="35" rx="5" ry="2.8" fill="#ca8a04" stroke="#ffffff" stroke-width="1.5"/>
+
+        <!-- Heavy Yellow Construction Hardhat / Safety Helmet on Cat Head -->
+        <!-- Cat ears peeking through hardhat sides -->
+        <polygon points="10,12 14,-2 18,9" fill="#1e293b" stroke="#eab308" stroke-width="1.5"/>
+        <polygon points="24,9 28,-2 32,12" fill="#1e293b" stroke="#eab308" stroke-width="1.5"/>
+
+        <!-- Hardhat dome -->
+        <path d="M 8 10 C 8 -4 16 -7 22 -7 C 28 -7 36 -4 36 10 Z" fill="#facc15" stroke="#78350f" stroke-width="2"/>
+        <!-- Hardhat front brim -->
+        <path d="M 6 10 L 38 10" stroke="#ca8a04" stroke-width="3" stroke-linecap="round"/>
+        <!-- Headlamp on hardhat -->
+        <ellipse cx="22" cy="3" rx="3.5" ry="2.5" fill="#ffffff" stroke="#78350f" stroke-width="1"/>
+        <circle cx="22" cy="3" r="1.5" fill="#38bdf8"/>
+
+        <!-- Cat Head & Industrial Safety Visor -->
+        <circle id="cat_head" cx="22" cy="14" r="15" fill="#18181b" stroke="#ca8a04" stroke-width="2"/>
+        <!-- Amber protective dust goggles -->
+        <rect x="10" y="10" width="24" height="8" rx="3" fill="#f59e0b" stroke="#ffffff" stroke-width="1.2"/>
+        <line x1="12" y1="14" x2="32" y2="14" stroke="#ffffff" stroke-width="1.5" opacity="0.95"/>
+
+        <!-- Whiskers -->
+        <line x1="7" y1="18" x2="-3" y2="16" stroke="#facc15" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="7" y1="22" x2="-2" y2="24" stroke="#facc15" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="37" y1="18" x2="47" y2="16" stroke="#facc15" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="37" y1="22" x2="46" y2="24" stroke="#facc15" stroke-width="1.5" stroke-linecap="round"/>
+
+        <!-- Heavy work collar -->
+        <path d="M 14 26 C 18 29 26 29 30 26" fill="none" stroke="#eab308" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="22" cy="28.5" r="2.5" fill="#ef4444" stroke="#ffffff" stroke-width="1"/>
+    </g>
+
+    <!-- 6. Heavy Diesel Exhaust Pipe Cannon (Труба - пушка!) -->
+    <!-- Industrial exhaust stack with perforated heat shield and angled rain cap flap at the muzzle -->
+    <g id="gun_group" transform="translate(112, 34) rotate(-90)">
+        <!-- Exhaust stack manifold base hinge & pivot: circle#axis_1 -->
+        <circle id="axis_1" cx="0" cy="0" r="4.5" fill="#00f2fe" stroke="#78350f" stroke-width="1.5"/>
+
+        <!-- Heavy diesel exhaust stack (Rotating Cannon): path#gun_1 -->
+        <!-- Heavy cylinder pipe with heat shield perforated sleeve and pivoted exhaust rain flap cap -->
+        <path id="gun_1" d="M -5 -7 L 0 -7 L 0 -5 L 14 -5 L 14 -7 L 22 -7 L 22 -5 L 26 -6 L 28 -9 L 29 -9 L 27 -5 L 28 -5 L 28 5 L 22 5 L 22 7 L 14 7 L 14 5 L 0 5 L 0 7 L -5 7 Z" fill="url(#exhaustPipeGrad)" stroke="#facc15" stroke-width="1.8"/>
+
+        <!-- Perforated heat shield holes along exhaust stack -->
+        <line x1="4" y1="-2" x2="18" y2="-2" stroke="#facc15" stroke-width="1" stroke-dasharray="2 2"/>
+        <line x1="4" y1="2" x2="18" y2="2" stroke="#facc15" stroke-width="1" stroke-dasharray="2 2"/>
+
+        <!-- Muzzle opening (circle#shot_1) centered at the exhaust tip (X=28, Y=0) -->
+        <circle id="shot_1" cx="28" cy="0" r="3.5" fill="#00f2fe"/>
+    </g>
+</svg>

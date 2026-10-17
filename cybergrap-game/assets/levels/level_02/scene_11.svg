@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00f2fe"/>
+            <stop offset="100%" stop-color="#4facfe"/>
+        </linearGradient>
+        <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff0844"/>
+            <stop offset="100%" stop-color="#ffb199"/>
+        </linearGradient>
+        <linearGradient id="neonViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#a855f7"/>
+            <stop offset="100%" stop-color="#6366f1"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 6 Stars in delta-wing citadel constellation -->
+    <polygon id="star_1" points="260,108 266,122 281,123 269,133 273,148 260,140 247,148 251,133 239,123 254,122" fill="#facc15" data-cx="260" data-cy="130" data-r="22" />
+    <polygon id="star_2" points="400,88 406,102 421,103 409,113 413,128 400,120 387,128 391,113 379,103 394,102" fill="#facc15" data-cx="400" data-cy="110" data-r="22" />
+    <polygon id="star_3" points="540,108 546,122 561,123 549,133 553,148 540,140 527,148 531,133 519,123 534,122" fill="#facc15" data-cx="540" data-cy="130" data-r="22" />
+    <polygon id="star_4" points="330,168 336,182 351,183 339,193 343,208 330,200 317,208 321,193 309,183 324,182" fill="#facc15" data-cx="330" data-cy="190" data-r="22" />
+    <polygon id="star_5" points="470,168 476,182 491,183 479,193 483,208 470,200 457,208 461,193 449,183 464,182" fill="#facc15" data-cx="470" data-cy="190" data-r="22" />
+    <polygon id="star_6" points="400,228 406,242 421,243 409,253 413,268 400,260 387,268 391,253 379,243 394,242" fill="#facc15" data-cx="400" data-cy="250" data-r="22" />
+
+    <!-- Citadel Two-tier Wall -->
+    <rect id="citadel_brk_left" class="breakable" data-hp="1" x="150" y="320" width="130" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="citadel_brk_center" class="breakable" data-hp="3" x="310" y="320" width="180" height="26" fill="#ef4444" rx="4"/>
+    <rect id="citadel_brk_right" class="breakable" data-hp="1" x="520" y="320" width="130" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+
+    <rect id="citadel_stone_1" class="breakable" data-hp="2" x="230" y="370" width="150" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="citadel_stone_2" class="breakable" data-hp="2" x="420" y="370" width="150" height="26" fill="#f59e0b" rx="4"/>
+
+    <!-- Classic Pinball Bumper Triad & Side Slingshots -->
+    <circle id="bumper_triad_top" cx="400" cy="460" r="34" fill="url(#neonPink)" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="bumper_triad_left" cx="290" cy="530" r="34" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="bumper_triad_right" cx="510" cy="530" r="34" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0"/>
+
+    <polygon id="slingshot_left" points="80,500 180,450 160,540" fill="url(#neonViolet)" data-restitution="1.0" data-friction="0.0" />
+    <polygon id="slingshot_right" points="720,500 620,450 640,540" fill="url(#neonViolet)" data-restitution="1.0" data-friction="0.0" />
+</svg>

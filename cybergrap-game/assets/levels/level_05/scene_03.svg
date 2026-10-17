@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <path fill="#ffff00" stroke="#7f0000" stroke-width="2" d="m178.3,276.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" id="star_1"/>
+  <path fill="#ffe500" stroke="#7f0000" stroke-width="2" d="m357.95,281.14l12.97,0l4.01,-12.32l4,12.32l12.97,0l-10.49,7.61l4.01,12.32l-10.49,-7.61l-10.49,7.61l4,-12.32l-10.49,-7.61l0,0z" id="star_2"/>
+  <path fill="#ffe500" stroke="#7f0000" stroke-width="2" d="m438.3,276.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" id="star_3"/>
+  <path fill="#ff7f00" stroke="#7f0000" stroke-width="2" d="m258.3,186.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" id="star_4"/>
+  <rect fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="219" y="278" width="10" height="71" id="svg_7"/>
+  <rect fill="#00ffff" stroke="#7f0000" stroke-width="2" opacity="0.5" x="99" y="218" width="440" height="20" id="svg_8"/>
+  <path fill="#ffe500" stroke="#7f0000" stroke-width="2" d="m247.95,281.14l12.97,0l4.01,-12.32l4,12.32l12.97,0l-10.49,7.61l4.01,12.32l-10.49,-7.61l-10.49,7.61l4,-12.32l-10.49,-7.61l0,0z" id="star_5"/>
+  <path id="star_6" fill="#ff7f00" stroke="#7f0000" stroke-width="2" d="m358.3,186.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z"/>
+  <path id="star_7" fill="#ffff56" stroke="#7f0000" stroke-width="2" d="m128.3,276.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z"/>
+  <path id="star_8" fill="#ffe500" stroke="#7f0000" stroke-width="2" d="m498.3,276.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z"/>
+  <rect id="svg_11" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="409" y="278" width="10" height="71"/>
+  <rect id="svg_14" fill="#0099ff" stroke="#7f0000" stroke-width="2" opacity="0.5" x="99" y="418" width="440" height="20"/>
+  <rect id="svg_15" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="99" y="238" width="10" height="80"/>
+  <rect id="svg_16" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="529" y="238" width="10" height="80"/>
+  <path id="star_9" fill="#ffe500" stroke="#7f0000" stroke-width="2" d="m297.6,375.52l17.29,0l5.35,-16.43l5.34,16.43l17.29,0l-13.99,10.15l5.34,16.42l-13.98,-10.15l-13.99,10.15l5.34,-16.42l-13.99,-10.15l0,0z"/>
+  <rect id="br_svg_21" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="255" y="327" width="14" height="91"/>
+  <rect id="br_svg_22" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="363" y="329" width="16" height="88"/>
+  <rect id="svg_23" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="289" y="328" width="60" height="20"/>
+  <rect id="br_svg_24" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="199" y="138" width="10" height="80"/>
+  <rect id="svg_25" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="229" y="68" width="180" height="100"/>
+  <rect id="br_svg_26" fill="#00ff7f" stroke="#7f0000" stroke-width="2" opacity="0.5" x="429" y="138" width="10" height="80"/>
+ </g>
+</svg>

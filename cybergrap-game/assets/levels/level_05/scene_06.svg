@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect height="20" width="60" y="260" x="340" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_57"/>
+  <rect height="80" width="20" y="160" x="310" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_93"/>
+  <rect height="20" width="70" y="260" x="230" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_100"/>
+  <rect height="80" width="20" y="280" x="310" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_101"/>
+  <rect height="20" width="80" y="260" x="440" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_102"/>
+  <rect height="80" width="20" y="280" x="200" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_103"/>
+  <rect height="20" width="80" y="260" x="110" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_104"/>
+  <rect height="80" width="20" y="160" x="220" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_105"/>
+  <rect height="20" width="80" y="370" x="220" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_106"/>
+  <rect height="80" width="20" y="160" x="400" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_107"/>
+  <rect height="20" width="80" y="370" x="340" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_108"/>
+  <rect height="80" width="20" y="280" x="410" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_109"/>
+  <rect height="20" width="80" y="260" x="540" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_110"/>
+  <rect height="80" width="20" y="170" x="110" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_111"/>
+  <rect height="20" width="80" y="140" x="420" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_112"/>
+  <rect height="80" width="20" y="170" x="510" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_113"/>
+  <rect height="20" width="80" y="140" x="140" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_114"/>
+  <rect height="80" width="20" y="400" x="310" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_115"/>
+  <rect height="20" width="140" y="140" x="250" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_116"/>
+  <rect height="80" width="20" y="280" x="510" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_117"/>
+  <rect height="80" width="20" y="60" x="220" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_119"/>
+  <rect height="20" width="80" y="260" x="20" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_120"/>
+  <rect height="80" width="20" y="280" x="110" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_121"/>
+  <rect height="80" width="20" y="60" x="400" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_133"/>
+  <rect height="80" width="20" y="390" x="110" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_134"/>
+  <rect height="80" width="20" y="50" x="310" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_135"/>
+  <rect height="80" width="20" y="390" x="200" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_136"/>
+  <rect height="80" width="20" y="390" x="420" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_137"/>
+  <rect height="80" width="20" y="390" x="510" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_138"/>
+  <rect height="20" width="80" y="370" x="20" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_139"/>
+  <rect height="20" width="80" y="370" x="530" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_140"/>
+  <rect height="20" width="80" y="370" x="120" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_141"/>
+  <rect height="20" width="80" y="370" x="440" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_142"/>
+  <rect height="20" width="80" y="140" x="20" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_143"/>
+  <rect height="20" width="80" y="140" x="540" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#41db91" id="br_svg_144"/>
+  <rect height="80" width="20" y="50" x="110" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_145"/>
+  <rect height="80" width="20" y="50" x="510" opacity="0.5" stroke-width="2" stroke="#7f0000" fill="#f2cf21" id="svg_146"/>
+  <path d="m117.16,147.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_1"/>
+  <path d="m207.16,257.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_2"/>
+  <path d="m317.16,257.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_3"/>
+  <path d="m417.16,257.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_4"/>
+  <path d="m517.16,147.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_5"/>
+  <path d="m317.16,377.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_6"/>
+  <path d="m367.16,327.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_7"/>
+  <path d="m167.16,217.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_8"/>
+  <path d="m267.16,217.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_9"/>
+  <path d="m367.16,217.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_10"/>
+  <path d="m467.16,217.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_11"/>
+  <path d="m267.16,327.51l3.12,-6.9l3.13,6.9l6.72,1.25l-4.79,4.39l0.99,6.9l-6.05,-3.42l-6.04,3.42l0.99,-6.9l-4.8,-4.39l6.73,-1.25z" stroke="#7f0000" fill="#ff0000" id="star_12"/>
+ </g>
+</svg>

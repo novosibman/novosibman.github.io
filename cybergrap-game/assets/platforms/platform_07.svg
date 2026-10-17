@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="160" height="80">
+    <defs>
+        <!-- Steam Locomotive Boiler & Cabin Gradients -->
+        <linearGradient id="locoBoilerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#334155"/>
+            <stop offset="25%" stop-color="#1e293b"/>
+            <stop offset="70%" stop-color="#0f172a"/>
+            <stop offset="100%" stop-color="#020617"/>
+        </linearGradient>
+        <linearGradient id="locoCabinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1e1b4b"/>
+            <stop offset="60%" stop-color="#0f172a"/>
+            <stop offset="100%" stop-color="#312e81"/>
+        </linearGradient>
+        <linearGradient id="brassGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fef08a"/>
+            <stop offset="40%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#b45309"/>
+        </linearGradient>
+        <linearGradient id="ironWheelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#334155"/>
+            <stop offset="50%" stop-color="#1e293b"/>
+            <stop offset="100%" stop-color="#090d16"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 1. Locomotive Wheels on Rails (Y=65) -->
+    <!-- Rear Cabin / Tender Wheel (R=10) -->
+    <circle id="wheel_0" cx="26" cy="65" r="10" fill="url(#ironWheelGrad)" stroke="#f59e0b" stroke-width="2.5"/>
+    <circle cx="26" cy="65" r="4" fill="#f59e0b"/>
+    <circle cx="26" cy="65" r="1.5" fill="#fef08a"/>
+
+    <!-- Large Driving Wheel 1 (R=11.5) -->
+    <circle id="wheel_1" cx="60" cy="65" r="11.5" fill="url(#ironWheelGrad)" stroke="#f59e0b" stroke-width="2.5"/>
+    <circle cx="60" cy="65" r="4.5" fill="#f59e0b"/>
+    <circle cx="60" cy="65" r="1.8" fill="#fef08a"/>
+
+    <!-- Large Driving Wheel 2 (R=11.5) -->
+    <circle id="wheel_2" cx="94" cy="65" r="11.5" fill="url(#ironWheelGrad)" stroke="#f59e0b" stroke-width="2.5"/>
+    <circle cx="94" cy="65" r="4.5" fill="#f59e0b"/>
+    <circle cx="94" cy="65" r="1.8" fill="#fef08a"/>
+
+    <!-- Front Pilot Wheel (R=9.5) -->
+    <circle id="wheel_3" cx="126" cy="65" r="9.5" fill="url(#ironWheelGrad)" stroke="#f59e0b" stroke-width="2.5"/>
+    <circle cx="126" cy="65" r="3.5" fill="#f59e0b"/>
+    <circle cx="126" cy="65" r="1.5" fill="#fef08a"/>
+
+    <!-- Drive Wheel Connecting Side Rod (Дышло паровоза) -->
+    <line x1="56" y1="65" x2="98" y2="65" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="60" cy="65" r="2.5" fill="#dc2626"/>
+    <circle cx="94" cy="65" r="2.5" fill="#dc2626"/>
+
+    <!-- 2. Steam Thrusters (left & right engine particle nozzles) -->
+    <path id="left_engine" d="M 12 44 L 4 48 L 12 52 Z" fill="#64748b" stroke="#f59e0b" stroke-width="1.2"/>
+    <path id="right_engine" d="M 148 44 L 156 48 L 148 52 Z" fill="#64748b" stroke="#f59e0b" stroke-width="1.2"/>
+
+    <!-- 3. Locomotive Platform Body: Driver Cabin + Cylindrical Boiler + Smokebox + Cowcatcher -->
+    <path id="platform_7" d="M 12 58 L 12 28 C 12 25 15 23 20 23 L 44 23 C 48 23 50 25 50 28 L 50 33 L 132 33 C 138 33 144 37 144 44 C 144 51 138 56 132 56 L 130 58 L 150 65 L 12 65 Z" fill="url(#locoBoilerGrad)" stroke="#f59e0b" stroke-width="2.5"/>
+
+    <!-- Driver Cabin Overhang Roof -->
+    <path d="M 10 24 C 10 21 16 19 32 19 C 48 19 54 21 54 24 Z" fill="url(#brassGoldGrad)" stroke="#fef08a" stroke-width="1"/>
+
+    <!-- Cabin Arched Window (Behind conductor cat) -->
+    <rect x="20" y="27" width="22" height="15" rx="3" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5"/>
+
+    <!-- Brass Steam Whistle (Паровой гудок на крыше будки) -->
+    <rect x="42" y="14" width="3" height="7" rx="1" fill="url(#brassGoldGrad)" stroke="#fef08a" stroke-width="0.8"/>
+    <ellipse cx="43.5" cy="14" rx="2.5" ry="1.5" fill="#fef08a"/>
+    <!-- Steam Whistle Puff Ring -->
+    <ellipse cx="43.5" cy="9" rx="3.5" ry="2" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="3 2" opacity="0.8"/>
+
+    <!-- Steam Dome (Паровой колпак на котле) -->
+    <path d="M 72 33 C 72 26 82 26 82 33 Z" fill="url(#brassGoldGrad)" stroke="#f59e0b" stroke-width="1.5"/>
+    <ellipse cx="77" cy="27" rx="3" ry="1.5" fill="#fef08a"/>
+
+    <!-- Sand Dome (Песочница на котле) -->
+    <path d="M 94 33 C 94 28 102 28 102 33 Z" fill="url(#brassGoldGrad)" stroke="#f59e0b" stroke-width="1.2"/>
+
+    <!-- Brass Boiler Straps / Bands with Rivets (Латунные обручи котла) -->
+    <line x1="56" y1="33" x2="56" y2="56" stroke="#f59e0b" stroke-width="2"/>
+    <line x1="88" y1="33" x2="88" y2="56" stroke="#f59e0b" stroke-width="2"/>
+    <line x1="112" y1="33" x2="112" y2="56" stroke="#f59e0b" stroke-width="2"/>
+    <!-- Decorative horizontal speed pinstripes -->
+    <line x1="52" y1="39" x2="132" y2="39" stroke="#fef08a" stroke-width="1.2" stroke-dasharray="6 3" opacity="0.85"/>
+    <line x1="52" y1="52" x2="132" y2="52" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+
+    <!-- Front Smokebox Door & Headlight (Прожектор паровоза) -->
+    <circle cx="134" cy="45" r="9" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="134" cy="45" r="5" fill="#facc15" stroke="#ffffff" stroke-width="1.2"/>
+    <!-- Glowing headlight beam indicator -->
+    <polygon points="139,45 152,40 152,50" fill="#fef08a" opacity="0.65"/>
+
+    <!-- Cowcatcher Slats / Pilot (Метельник) -->
+    <line x1="134" y1="59" x2="148" y2="65" stroke="#f59e0b" stroke-width="1.8"/>
+    <line x1="138" y1="59" x2="150" y2="65" stroke="#f59e0b" stroke-width="1.8"/>
+
+    <!-- 4. Six Ammo Balls (ball_1 .. ball_6): Glowing firebox energy spheres in magazine -->
+    <circle id="ball_1" cx="54" cy="46" r="3.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_2" cx="64" cy="46" r="3.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_3" cx="74" cy="46" r="3.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_4" cx="84" cy="46" r="3.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_5" cx="94" cy="46" r="3.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+    <circle id="ball_6" cx="104" cy="46" r="3.8" fill="#00f2fe" stroke="#ffffff" stroke-width="1.5"/>
+
+    <!-- 5. Stylized Railway Conductor Cyber-Cat in Train Cabin (Enlarged, all parts visible) -->
+    <g id="cyber_cat" transform="translate(18, 2)">
+        <!-- Upward curling tail with golden railway lantern ring -->
+        <path d="M 40 33 C 48 30 54 19 50 10 C 46 3 38 4 36 8 C 34 12 38 17 42 17" fill="none" stroke="#f59e0b" stroke-width="3.5" stroke-linecap="round"/>
+        <circle cx="42" cy="17" r="3" fill="#fef08a" stroke="#b45309" stroke-width="1.2"/>
+
+        <!-- Sitting cat body and hind haunch sitting on cabin floor -->
+        <path d="M 10 36 L 10 24 C 10 16 16 13 22 13 C 28 13 34 16 35 24 C 37 28 41 31 43 36 Z" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+        <ellipse cx="34" cy="30" rx="8" ry="5.5" fill="#1e293b" stroke="#fbbf24" stroke-width="1.8"/>
+
+        <!-- Front paws resting on cabin window edge -->
+        <ellipse cx="14" cy="35" rx="5" ry="2.8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+        <ellipse cx="24" cy="35" rx="5" ry="2.8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+
+        <!-- Tall Cat ears poking up behind conductor cap -->
+        <polygon points="10,12 15,-5 20,9" fill="#1e1b4b" stroke="#f59e0b" stroke-width="1.5"/>
+        <polygon points="12,9 15,0 19,8" fill="#fef08a"/>
+        <polygon points="23,9 28,-5 33,12" fill="#1e1b4b" stroke="#f59e0b" stroke-width="1.5"/>
+        <polygon points="25,8 28,0 31,9" fill="#fef08a"/>
+
+        <!-- Railway Conductor Cap (Фуражка машиниста с козырьком и кокардой) -->
+        <ellipse cx="22" cy="6" rx="14" ry="4" fill="#1e1b4b" stroke="#f59e0b" stroke-width="1.2"/>
+        <polygon points="9,6 35,6 37,9 7,9" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/> <!-- Cap Visor -->
+        <circle cx="22" cy="4" r="2.2" fill="#fef08a" stroke="#b45309" stroke-width="0.8"/> <!-- Gold Cockade Badge -->
+
+        <!-- Enlarged Cat head & Golden Conductor Visor -->
+        <circle id="cat_head" cx="22" cy="14" r="16" fill="#0f172a" stroke="#f59e0b" stroke-width="2.5"/>
+        <rect x="10" y="10" width="24" height="8" rx="4" fill="#f59e0b" stroke="#fef08a" stroke-width="1.2"/>
+        <line x1="12" y1="14" x2="32" y2="14" stroke="#ffffff" stroke-width="1.5" opacity="0.95"/>
+
+        <!-- Whiskers -->
+        <line x1="7" y1="17" x2="-3" y2="15" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="7" y1="21" x2="-2" y2="23" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="37" y1="17" x2="47" y2="15" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="37" y1="21" x2="46" y2="23" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
+
+        <!-- Railway Bandana Collar with Gold Whistle Pendant -->
+        <path d="M 14 26 C 18 29 26 29 30 26" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="22" cy="28.5" r="2.5" fill="#fef08a" stroke="#b45309" stroke-width="1"/>
+    </g>
+
+    <!-- 6. Locomotive Smokestack Cannon (Труба - пушка!) -->
+    <!-- Mounted on front smokebox deck, rotates to aim and fires cannonballs right out of the chimney funnel! -->
+    <g id="gun_group" transform="translate(120, 35) rotate(-90)">
+        <!-- Chimney Hinge & Pivot: circle#axis_1 -->
+        <circle id="axis_1" cx="0" cy="0" r="4.5" fill="#00f2fe" stroke="#fef08a" stroke-width="1.2"/>
+
+        <!-- Steam Train Chimney Barrel (Rotating Cannon): path#gun_1 -->
+        <!-- Flared Victorian steam locomotive chimney funnel tapering out to wide brass crown -->
+        <path id="gun_1" d="M -5 -7 L 0 -7 L 0 -5 L 14 -5 L 16 -7 L 22 -8 L 28 -11 L 28 11 L 22 8 L 16 7 L 14 5 L 0 5 L 0 7 L -5 7 Z" fill="url(#locoBoilerGrad)" stroke="#f59e0b" stroke-width="2"/>
+
+        <!-- Muzzle Spout (circle#shot_1) centered at the top lip of the smokestack (X=28, Y=0) -->
+        <circle id="shot_1" cx="28" cy="0" r="3.5" fill="#00f2fe"/>
+    </g>
+</svg>

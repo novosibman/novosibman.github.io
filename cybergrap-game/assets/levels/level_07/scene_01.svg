@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="600" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <path id="star_1" d="m167.95,309.14l12.97,0l4.01,-12.32l4,12.32l12.97,0l-10.49,7.61l4.01,12.32l-10.49,-7.61l-10.49,7.61l4,-12.32l-10.49,-7.61l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffff00"/>
+  <path id="star_2" d="m344.95,209.14l12.97,0l4.01,-12.32l4,12.32l12.97,0l-10.49,7.61l4.01,12.32l-10.49,-7.61l-10.49,7.61l4,-12.32l-10.49,-7.61l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="star_3" d="m414.95,292.14l12.97,0l4.01,-12.32l4,12.32l12.97,0l-10.49,7.61l4.01,12.32l-10.49,-7.61l-10.49,7.61l4,-12.32l-10.49,-7.61l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="star_4" d="m285.3,272.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="star_5" d="m221.95,207.14l12.97,0l4.01,-12.32l4,12.32l12.97,0l-10.49,7.61l4.01,12.32l-10.49,-7.61l-10.49,7.61l4,-12.32l-10.49,-7.61l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="svg_12" d="m80,280l190,190l-200,-180l10,-10z" opacity="0.5" stroke-width="2" stroke="#bfbfbf" fill="#007fff"/>
+  <path id="svg_13" d="m320,470l190,-190l10,10l-200,180z" opacity="0.5" stroke-width="2" stroke="#bfbfbf" fill="#007fff"/>
+  <path id="star_6" d="m291.3,125.76l8.65,0l2.67,-8.21l2.67,8.21l8.64,0l-6.99,5.07l2.67,8.22l-6.99,-5.08l-7,5.08l2.68,-8.22l-7,-5.07l0,0z" stroke-width="2" stroke="#7f0000" fill="#ffe500"/>
+  <path id="svg_15" d="m80,130l190,190l-200,-180l10,-10z" opacity="0.5" stroke-width="2" stroke="#bfbfbf" fill="#007fff"/>
+  <path id="svg_16" d="m320,320l190,-190l10,10l-200,180z" opacity="0.5" stroke-width="2" stroke="#bfbfbf" fill="#007fff"/>
+  <path id="svg_17" d="m200,154.5l104.5,-104.5l5.5,5.5l-110,99z" opacity="0.5" stroke-width="2" stroke="#bfbfbf" fill="#007fff"/>
+  <path id="svg_18" d="m295.5,50l104.5,104.5l-110,-99l5.5,-5.5z" opacity="0.5" stroke-width="2" stroke="#bfbfbf" fill="#007fff"/>
+ </g>
+</svg>

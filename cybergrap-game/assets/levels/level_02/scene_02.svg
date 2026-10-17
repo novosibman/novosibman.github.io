@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <polygon id="star_1" points="200,120 212,150 245,150 218,170 228,200 200,180 172,200 182,170 155,150 188,150" fill="#facc15" data-cx="200" data-cy="160" data-r="22" />
+    <polygon id="star_2" points="400,120 412,150 445,150 418,170 428,200 400,180 372,200 382,170 355,150 388,150" fill="#facc15" data-cx="400" data-cy="160" data-r="22" />
+    <polygon id="star_3" points="600,120 612,150 645,150 618,170 628,200 600,180 572,200 582,170 555,150 588,150" fill="#facc15" data-cx="600" data-cy="160" data-r="22" />
+    <polygon id="star_4" points="400,240 412,270 445,270 418,290 428,320 400,300 372,320 382,290 355,270 388,270" fill="#facc15" data-cx="400" data-cy="280" data-r="22" />
+
+    <rect id="block_1" class="breakable" data-hp="3" x="180" y="360" width="100" height="25" fill="#f59e0b" rx="4"/>
+    <rect id="block_2" class="breakable" data-hp="1" x="300" y="360" width="200" height="25" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="block_3" class="breakable" data-hp="3" x="520" y="360" width="100" height="25" fill="#f59e0b" rx="4"/>
+
+    <circle id="bumper_left" cx="240" cy="500" r="35" fill="#06b6d4" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="bumper_right" cx="560" cy="500" r="35" fill="#06b6d4" data-restitution="1.0" data-friction="0.0"/>
+</svg>

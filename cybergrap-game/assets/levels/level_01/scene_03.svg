@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <!-- Created with Uoyan Toolz  - https://novosibman.github.io -->
+  <rect x="140" y="280" width="360" height="20" id="rect_1" stroke="#EF4444" stroke-width="2" fill="rgba(17, 186, 130, 0.47)" />
+  <rect x="100" y="160" width="440" height="20" id="rect_2" stroke="#EF4444" stroke-width="2" fill="rgba(17, 186, 130, 0.47)" />
+  <polygon points="440,220 445,233 459,234 449,243 452,256 440,249 428,256 431,243 421,234 435,233" id="star_3" stroke="#9E1F11" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+  <polygon points="200,220 205,233 219,234 209,243 212,256 200,249 188,256 191,243 181,234 195,233" id="star_1" stroke="#9E1F11" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+  <polygon points="320,200 325,213 339,214 329,223 332,236 320,229 308,236 311,223 301,214 315,213" id="star_2" stroke="#9E1F11" stroke-width="2" stroke-linejoin="round" fill="#FFF200" />
+</svg>

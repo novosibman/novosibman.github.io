@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <!-- Star cluster -->
+    <polygon id="star_1" points="220,130 232,160 265,160 238,180 248,210 220,190 192,210 202,180 175,160 208,160" fill="#facc15" data-cx="220" data-cy="170" data-r="22" />
+    <polygon id="star_2" points="340,160 352,190 385,190 358,210 368,240 340,220 312,240 322,210 295,190 328,190" fill="#facc15" data-cx="340" data-cy="200" data-r="22" />
+    <polygon id="star_3" points="460,160 472,190 505,190 478,210 488,240 460,220 432,240 442,210 415,190 448,190" fill="#facc15" data-cx="460" data-cy="200" data-r="22" />
+    <polygon id="star_4" points="580,130 592,160 625,160 598,180 608,210 580,190 552,210 562,180 535,160 568,160" fill="#facc15" data-cx="580" data-cy="170" data-r="22" />
+
+    <rect id="wall_1" class="breakable" data-hp="2" x="140" y="280" width="120" height="24" fill="#f59e0b" rx="4"/>
+    <rect id="wall_2" class="breakable" data-hp="1" x="280" y="280" width="240" height="24" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="wall_3" class="breakable" data-hp="2" x="540" y="280" width="120" height="24" fill="#f59e0b" rx="4"/>
+
+    <!-- Slanted bumpers -->
+    <rect id="steel_1" x="160" y="440" width="140" height="20" transform="rotate(30 230 450)" fill="#8b5cf6" data-restitution="1.0" data-friction="0.0"/>
+    <rect id="steel_2" x="500" y="440" width="140" height="20" transform="rotate(-30 570 450)" fill="#8b5cf6" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="core_1" cx="400" cy="480" r="30" fill="#ec4899" data-restitution="1.0" data-friction="0.0"/>
+</svg>

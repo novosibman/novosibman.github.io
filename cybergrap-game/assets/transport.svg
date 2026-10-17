@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cabin & Aerodynamic Cyber Cart Hull -->
+    <path d="M2 13.5 L4.5 8.5 C5.2 7 6.8 6 8.5 6 L14.5 6 C15.8 6 17 6.7 17.7 7.8 L20.5 11.5 L21.5 12.8 C22 13.5 22 14.3 21.8 15.1 L21 17 C20.6 17.6 20 18 19.2 18 L18.5 18" />
+    <path d="M2 14 L2 17 C2 17.6 2.5 18 3.1 18 L5.5 18" />
+    <path d="M9.5 18 L14.5 18" />
+    <!-- Cockpit Windshield -->
+    <path d="M8 8.5 L14 8.5 L17 12.5 L8 12.5 Z" fill="currentColor" fill-opacity="0.2" />
+    <!-- Upper Laser Turret / Roof Mount -->
+    <path d="M10.5 6 L10.5 3.5 L13.5 3.5" />
+    <!-- Wheels with inner hubs -->
+    <circle cx="7.5" cy="18" r="2.5" />
+    <circle cx="7.5" cy="18" r="0.8" fill="currentColor" />
+    <circle cx="16.5" cy="18" r="2.5" />
+    <circle cx="16.5" cy="18" r="0.8" fill="currentColor" />
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00f2fe"/>
+            <stop offset="100%" stop-color="#4facfe"/>
+        </linearGradient>
+        <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#b224ef"/>
+            <stop offset="100%" stop-color="#7579ff"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 5 Stars in diamond sanctuary -->
+    <polygon id="star_1" points="400,108 406,122 421,123 409,133 413,148 400,140 387,148 391,133 379,123 394,122" fill="#facc15" data-cx="400" data-cy="130" data-r="22" />
+    <polygon id="star_2" points="260,168 266,182 281,183 269,193 273,208 260,200 247,208 251,193 239,183 254,182" fill="#facc15" data-cx="260" data-cy="190" data-r="22" />
+    <polygon id="star_3" points="540,168 546,182 561,183 549,193 553,208 540,200 527,208 531,193 519,183 534,182" fill="#facc15" data-cx="540" data-cy="190" data-r="22" />
+    <polygon id="star_4" points="330,248 336,262 351,263 339,273 343,288 330,280 317,288 321,273 309,263 324,262" fill="#facc15" data-cx="330" data-cy="270" data-r="22" />
+    <polygon id="star_5" points="470,248 476,262 491,263 479,273 483,288 470,280 457,288 461,273 449,263 464,262" fill="#facc15" data-cx="470" data-cy="270" data-r="22" />
+
+    <!-- Prism Fortress Breakable Barriers -->
+    <rect id="prism_glass_left" class="breakable" data-hp="1" x="170" y="340" width="130" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="prism_stone_center" class="breakable" data-hp="3" x="320" y="340" width="160" height="26" fill="#ef4444" rx="4"/>
+    <rect id="prism_glass_right" class="breakable" data-hp="1" x="500" y="340" width="130" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+
+    <rect id="prism_stone_low1" class="breakable" data-hp="2" x="240" y="390" width="140" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="prism_stone_low2" class="breakable" data-hp="2" x="420" y="390" width="140" height="26" fill="#f59e0b" rx="4"/>
+
+    <!-- Dual Kinetic Bumpers & Side Deflectors -->
+    <polygon id="deflector_left" points="100,530 220,470 190,560" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0" />
+    <polygon id="deflector_right" points="700,530 580,470 610,560" fill="url(#neonCyan)" data-restitution="1.0" data-friction="0.0" />
+    <circle id="bumper_peg_1" cx="310" cy="510" r="32" fill="url(#neonPurple)" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="bumper_peg_2" cx="490" cy="510" r="32" fill="url(#neonPurple)" data-restitution="1.0" data-friction="0.0"/>
+</svg>

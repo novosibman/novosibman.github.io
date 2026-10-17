@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#c084fc"/>
+            <stop offset="100%" stop-color="#7c3aed"/>
+        </linearGradient>
+        <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f472b6"/>
+            <stop offset="100%" stop-color="#db2777"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 5 Stars in alternating wave -->
+    <polygon id="star_1" points="160,158 166,172 181,173 169,183 173,198 160,190 147,198 151,183 139,173 154,172" fill="#facc15" data-cx="160" data-cy="180" data-r="22" />
+    <polygon id="star_2" points="280,118 286,132 301,133 289,143 293,158 280,150 267,158 271,143 259,133 274,132" fill="#facc15" data-cx="280" data-cy="140" data-r="22" />
+    <polygon id="star_3" points="400,148 406,162 421,163 409,173 413,188 400,180 387,188 391,173 379,163 394,162" fill="#facc15" data-cx="400" data-cy="170" data-r="22" />
+    <polygon id="star_4" points="520,118 526,132 541,133 529,143 533,158 520,150 507,158 511,143 499,133 514,132" fill="#facc15" data-cx="520" data-cy="140" data-r="22" />
+    <polygon id="star_5" points="640,158 646,172 661,173 649,183 653,198 640,190 627,198 631,183 619,173 634,172" fill="#facc15" data-cx="640" data-cy="180" data-r="22" />
+
+    <!-- Slalom Breakable Blocks -->
+    <rect id="slalom_brick_1" class="breakable" data-hp="2" x="140" y="270" width="120" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="slalom_brick_2" class="breakable" data-hp="1" x="280" y="310" width="110" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="slalom_brick_3" class="breakable" data-hp="1" x="410" y="310" width="110" height="26" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="slalom_brick_4" class="breakable" data-hp="2" x="540" y="270" width="120" height="26" fill="#f59e0b" rx="4"/>
+    <rect id="slalom_brick_center" class="breakable" data-hp="3" x="330" y="370" width="140" height="28" fill="#ef4444" rx="4"/>
+
+    <!-- Kinetic Pinball Rails & Core -->
+    <rect id="rail_left" x="90" y="470" width="160" height="22" transform="rotate(25 170 481)" fill="url(#neonViolet)" data-restitution="1.0" data-friction="0.0"/>
+    <rect id="rail_right" x="550" y="470" width="160" height="22" transform="rotate(-25 630 481)" fill="url(#neonViolet)" data-restitution="1.0" data-friction="0.0"/>
+    <circle id="slalom_core" cx="400" cy="510" r="36" fill="url(#neonPink)" data-restitution="1.0" data-friction="0.0"/>
+</svg>

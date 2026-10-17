@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" width="300" height="120">
+  <defs>
+    <linearGradient id="c2-grad" x1="0" y1="0" x2="0" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#ffffff" stopOpacity="0.95"/>
+      <stop offset="60%" stopColor="#f8fafc" stopOpacity="0.9"/>
+      <stop offset="100%" stopColor="#e2e8f0" stopOpacity="0.75"/>
+    </linearGradient>
+    <filter id="c2-soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <g filter="url(#c2-soft)">
+    <path d="M 45 95 
+             C 25 95 15 75 25 58 
+             C 20 40 38 25 55 32 
+             C 70 12 105 10 125 25 
+             C 145 10 185 8 205 28 
+             C 225 15 255 24 265 48 
+             C 285 55 290 82 272 95 
+             C 255 102 65 100 45 95 Z" 
+          fill="url(#c2-grad)"/>
+    <ellipse cx="140" cy="45" rx="55" ry="25" fill="#ffffff" fill-opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <!-- Created with Uoyan Toolz  - https://novosibman.github.io -->
+  <rect x="240" y="200" width="20" height="82" id="rect_8" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <rect x="380" y="200" width="20" height="82" id="rect_7" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <rect x="0" y="80" width="640" height="20" id="rect_1" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <rect x="140" y="280" width="120" height="22" id="rect_2" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <rect x="380" y="280" width="120" height="22" id="rect_5" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <rect x="260" y="280" width="120" height="22" id="br_1" class="breakable" stroke="#94A3B8" stroke-width="2" fill="rgba(196, 153, 51, 0.69)" />
+  <rect x="80" y="180" width="480" height="22" id="rect_3" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <rect x="240" y="380" width="160" height="22" id="rect_4" stroke="#94A3B8" stroke-width="2" fill="rgba(51, 97, 196, 0.69)" />
+  <polygon points="320,320 325,333 339,334 329,343 332,356 320,349 308,356 311,343 301,334 315,333" id="star_1" stroke="#C116FA" stroke-width="2" stroke-linejoin="round" fill="#F59E0B" />
+  <polygon points="320,220 325,233 339,234 329,243 332,256 320,249 308,256 311,243 301,234 315,233" id="star_2" stroke="#C116FA" stroke-width="2" stroke-linejoin="round" fill="#F59E0B" />
+  <polygon points="320,120 325,133 339,134 329,143 332,156 320,149 308,156 311,143 301,134 315,133" id="star_3" stroke="#C116FA" stroke-width="2" stroke-linejoin="round" fill="#F59E0B" />
+  <polygon points="440,220 445,233 459,234 449,243 452,256 440,249 428,256 431,243 421,234 435,233" id="star_4" stroke="#C116FA" stroke-width="2" stroke-linejoin="round" fill="#F59E0B" />
+  <polygon points="200,220 205,233 219,234 209,243 212,256 200,249 188,256 191,243 181,234 195,233" id="star_5" stroke="#C116FA" stroke-width="2" stroke-linejoin="round" fill="#F59E0B" />
+</svg>

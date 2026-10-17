@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+        <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#b224ef"/>
+            <stop offset="100%" stop-color="#7579ff"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 4 Stars in diamond formation -->
+    <polygon id="star_1" points="400,120 412,150 445,150 418,170 428,200 400,180 372,200 382,170 355,150 388,150" fill="#facc15" data-cx="400" data-cy="160" data-r="22" />
+    <polygon id="star_2" points="250,220 262,250 295,250 268,270 278,300 250,280 222,300 232,270 205,250 238,250" fill="#facc15" data-cx="250" data-cy="260" data-r="22" />
+    <polygon id="star_3" points="550,220 562,250 595,250 568,270 578,300 550,280 522,300 532,270 505,250 538,250" fill="#facc15" data-cx="550" data-cy="260" data-r="22" />
+    <polygon id="star_4" points="400,280 412,310 445,310 418,330 428,360 400,340 372,360 382,330 355,310 388,310" fill="#facc15" data-cx="400" data-cy="320" data-r="22" />
+
+    <!-- Glass & Stone shields -->
+    <rect id="glass_1" class="breakable" data-hp="1" x="120" y="380" width="160" height="28" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+    <rect id="stone_1" class="breakable" data-hp="3" x="320" y="380" width="160" height="28" fill="#f59e0b" rx="4"/>
+    <rect id="glass_2" class="breakable" data-hp="1" x="520" y="380" width="160" height="28" fill="rgba(56, 189, 248, 0.5)" rx="4"/>
+
+    <!-- Slanted metal deflector bars -->
+    <rect id="metal_bar_left" x="100" y="520" width="180" height="24" transform="rotate(25 190 532)" fill="url(#neonPurple)" data-restitution="1.0" data-friction="0.0"/>
+    <rect id="metal_bar_right" x="520" y="520" width="180" height="24" transform="rotate(-25 610 532)" fill="url(#neonPurple)" data-restitution="1.0" data-friction="0.0"/>
+</svg>

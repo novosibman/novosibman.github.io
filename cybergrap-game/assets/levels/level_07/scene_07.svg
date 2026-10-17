@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path fill="#7507ea" stroke="#000000" stroke-width="2" d="m150,280l170,-120l170,120l-170,-90l-170,90z" id="svg_5" opacity="0.5"/>
+  <path fill="#7f00ff" stroke="#000000" stroke-width="2" d="m199,408l120,-45.5l120,45.5l-120,-65l-120,65z" id="svg_6" opacity="0.4"/>
+  <path fill="#7f00ff" stroke="#000000" stroke-width="2" d="m101,373l220,-99.12l220,99.12l-220,-118l-220,118z" id="svg_9" opacity="0.3"/>
+  <path id="sss_2" fill="#5d00ff" stroke="#000000" d="m50,260l270,-190l270,190l-270,-160l-270,160z" stroke-width="2" opacity="0.8"/>
+  <path id="star_1" d="m238,192l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_2" d="m175,229l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_3" d="m243,263l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_4" d="m308,235l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_5" d="m375,267l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_6" d="m387,190l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_7" d="m311,148l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_8" d="m309,319l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+  <path id="star_9" d="m450,231l5,-10l-5,-10l10,5l10,-5l-5,10l5,10l-10,-5l-10,5z" opacity="0.75" stroke="#7f0000" fill="#ff007f"/>
+ </g>
+</svg>

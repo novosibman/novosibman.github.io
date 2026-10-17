@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <!-- Created with Uoyan Toolz  - https://novosibman.github.io -->
+  <polygon points="100,120 105,133 119,134 109,143 112,156 100,149 88,156 91,143 81,134 95,133" id="star_1" stroke="#0A16F5" stroke-width="2" stroke-linejoin="round" fill="#0AF5F1" />
+  <polygon points="520,120 525,133 539,134 529,143 532,156 520,149 508,156 511,143 501,134 515,133" id="star_2" stroke="#0A16F5" stroke-width="2" stroke-linejoin="round" fill="#0AF5F1" />
+  <polygon points="260,160 265,173 279,174 269,183 272,196 260,189 248,196 251,183 241,174 255,173" id="star_3" stroke="#0A16F5" stroke-width="2" stroke-linejoin="round" fill="#0AF5F1" />
+  <polygon points="520,280 525,293 539,294 529,303 532,316 520,309 508,316 511,303 501,294 515,293" id="star_4" stroke="#0A16F5" stroke-width="2" stroke-linejoin="round" fill="#0AF5F1" />
+  <polygon points="400,200 405,213 419,214 409,223 412,236 400,229 388,236 391,223 381,214 395,213" id="star_5" stroke="#0A16F5" stroke-width="2" stroke-linejoin="round" fill="#0AF5F1" />
+  <polygon points="140,260 145,273 159,274 149,283 152,296 140,289 128,296 131,283 121,274 135,273" id="star_6" stroke="#0A16F5" stroke-width="2" stroke-linejoin="round" fill="#0AF5F1" />
+  <rect x="0" y="360" width="80" height="40" id="rect_1" stroke="#F54C0A" stroke-width="2" fill="#CA61FF" />
+  <rect x="80" y="320" width="80" height="40" id="br_rect_5" class="breakable" stroke="#F54C0A" stroke-width="2" fill="#6366F1" />
+  <rect x="480" y="360" width="80" height="40" id="rect_9" stroke="#F54C0A" stroke-width="2" fill="#CA61FF" />
+  <rect x="560" y="320" width="80" height="40" id="br_rect_8" class="breakable" stroke="#F54C0A" stroke-width="2" fill="#6366F1" />
+  <rect x="400" y="320" width="80" height="40" id="br_rect_6" class="breakable" stroke="#F54C0A" stroke-width="2" fill="#6366F1" />
+  <rect x="320" y="360" width="80" height="40" id="rect_2" stroke="#F54C0A" stroke-width="2" fill="#CA61FF" />
+  <rect x="240" y="320" width="80" height="40" id="br_rect_3" class="breakable" stroke="#F54C0A" stroke-width="2" fill="#6366F1" />
+  <rect x="160" y="360" width="80" height="40" id="rect_4" stroke="#F54C0A" stroke-width="2" fill="#CA61FF" />
+  <polygon points="160,135 172,184 223,186 179,206 206,256 160,220 114,256 141,206 97,186 148,184" id="st_7" stroke="#F54C0A" stroke-width="2" stroke-linejoin="round" fill="#61FFF2" />
+  <polygon points="480,135 492,184 543,186 499,206 526,256 480,220 434,256 461,206 417,186 468,184" id="st_8" stroke="#F54C0A" stroke-width="2" stroke-linejoin="round" fill="#61FFF2" />
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" xmlns:svg="http://www.w3.org/2000/svg">
+  <path d="m 142 220l-2,45l36,0l0,-43l-34,-2z" id="svg_1" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 262 220l-2,45l36,0l0,-43l-34,-2z" id="svg_2" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 382 220l-2,45l36,0l0,-43l-34,-2z" id="svg_3" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 322 120l-2,45l36,0l0,-43l-34,-2z" id="svg_4" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 302 320l-2,45l36,0l0,-43l-34,-2z" id="svg_5" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 442 120l-2,45l36,0l0,-43l-34,-2z" id="svg_6" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 422 320l-2,45l36,0l0,-43l-34,-2z" id="svg_7" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 182 320l-2,45l36,0l0,-43l-34,-2z" id="svg_8" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 82 120l-2,45l36,0l0,-43l-34,-2z" id="path_5" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 202 120l-2,45l36,0l0,-43l-34,-2z" id="svg_9" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 502 220l-2,45l36,0l0,-43l-34,-2z" id="svg_14" stroke="#000000" stroke-width="2" fill="#ffd4aa" />
+  <path d="m 140 470l 162.2 -50l -0.53 29.1l -161.67 20.9z" id="svg_17" stroke="#000000" stroke-width="2" fill="#ffaaaa" stroke-opacity="null" fill-opacity="null" />
+  <path d="m 40 370l 137.2 -50l -0.45 29.1l -136.75 20.9z" id="path_1" stroke="#000000" stroke-width="2" fill="#ffaaaa" stroke-opacity="null" fill-opacity="null" />
+  <path d="m 40.5 270l 96.7 -50l -0.32 29.1l -96.38 20.9z" id="path_3" stroke="#000000" stroke-width="2" fill="#ffaaaa" stroke-opacity="null" fill-opacity="null" />
+  <path d="m 321.25 380l 173.95 60.5c 0 0 -175.2 -29.87 -174.58 -30.63c 0.63 -0.75 0.63 -29.87 0.63 -29.87z" id="svg_19" stroke="#000000" stroke-width="2" fill="#ffaaaa" stroke-opacity="null" fill-opacity="null" />
+  <path d="m 461.13 320l 156.57 60.5c 0 0 -157.7 -29.87 -157.14 -30.63c 0.57 -0.75 0.57 -29.87 0.57 -29.87z" id="path_2" stroke="#000000" stroke-width="2" fill="#ffaaaa" stroke-opacity="null" fill-opacity="null" />
+  <path d="m 480.84 120l 115.76 60.5c 0 0 -116.6 -29.87 -116.19 -30.63c 0.42 -0.75 0.42 -29.87 0.42 -29.87z" id="path_4" stroke="#000000" stroke-width="2" fill="#ffaaaa" stroke-opacity="null" fill-opacity="null" />
+  <polygon points="159.4,120 164.8,133.3 178.7,134.3 167.9,143.4 171.1,157.2 159.4,149.9 147.6,157.2 150.8,143.4 140,134.3 153.9,133.3" id="star_1" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="339.4,220 344.8,233.3 358.7,234.3 347.9,243.4 351.1,257.2 339.4,249.9 327.6,257.2 330.8,243.4 320,234.3 333.9,233.3" id="star_3" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="459.4,220 464.8,233.3 478.7,234.3 467.9,243.4 471.1,257.2 459.4,249.9 447.6,257.2 450.8,243.4 440,234.3 453.9,233.3" id="star_5" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="379.4,320 384.8,333.3 398.7,334.3 387.9,343.4 391.1,357.2 379.4,349.9 367.6,357.2 370.8,343.4 360,334.3 373.9,333.3" id="star_6" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="259.4,320 264.8,333.3 278.7,334.3 267.9,343.4 271.1,357.2 259.4,349.9 247.60000000000002,357.2 250.8,343.4 240,334.3 253.89999999999998,333.3" id="star_7" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="219.39999999999998,220 224.8,233.3 238.7,234.3 227.89999999999998,243.4 231.10000000000002,257.2 219.39999999999998,249.9 207.60000000000002,257.2 210.8,243.4 200,234.3 213.89999999999998,233.3" id="star_4" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="279.4,120 284.8,133.3 298.7,134.3 287.9,143.4 291.1,157.2 279.4,149.9 267.6,157.2 270.8,143.4 260,134.3 273.9,133.3" id="star_9" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+  <polygon points="399.4,120 404.8,133.3 418.7,134.3 407.9,143.4 411.1,157.2 399.4,149.9 387.6,157.2 390.8,143.4 380,134.3 393.9,133.3" id="star_2" stroke="#EDFF94" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill="#C945ED" />
+</svg>

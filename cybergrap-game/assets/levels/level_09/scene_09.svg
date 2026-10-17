@@ -1,0 +1,25 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path fill="#3f7f00" stroke="#ffffff" stroke-width="2" opacity="0.7" d="m190,325l200,100l-400,0l200,-100z" id="svg_31"/>
+  <path fill="#1374d6" stroke="#ffffff" stroke-width="2" opacity="0.7" d="m650,395l0,85l-255,-85l255,0z" id="svg_38"/>
+  <path id="svg_4" fill="#3f7f00" stroke="#ffffff" stroke-width="2" opacity="0.7" d="m595,295l200,100l-400,0l200,-100z"/>
+  <path id="svg_5" fill="#1374d6" stroke="#ffffff" stroke-width="2" opacity="0.7" d="m440,350l-100,50l-100,-50l200,0z"/>
+  <path id="svg_6" fill="#1374d6" stroke="#ffffff" stroke-width="2" opacity="0.7" d="m130,355l-140,70l0,-70l140,0z"/>
+  <path id="svg_7" fill="#1374d6" stroke="#ffffff" stroke-width="2" opacity="0.7" d="m385,425l-155,53.28125l-240,0.85938l0.00001,-54.14063l394.99999,0z"/>
+  <path id="star_0" d="m505.51038,58.4911l-10.20142,7.40739l3.8988,-11.98426l-10.19403,-7.40758l12.60101,0.0017l3.35236,-10.30467l0.54675,-1.67443l3.88849,11.9774l12.60791,0l-10.20135,7.40758l3.89929,11.98782l-10.19781,-7.41095l0,0z" stroke-width="2" stroke="#ff0000" fill="#ffffff"/>
+  <path id="star_1" d="m125,179.87502l-3.75,-20.12502l-11.25,-3.93748l11.25,-4.81252l3.75,-21l3.75,21l11.25,4.81252l-11.25,3.93748l-3.75,20.12502z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_2" d="m185,189.87502l-3.75,-20.12502l-11.25,-3.93748l11.25,-4.81252l3.75,-21l3.75,21l11.25,4.81252l-11.25,3.93748l-3.75,20.12502z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_3" d="m215,224.875l-3.75,-20.125l-11.25,-3.93748l11.25,-4.81252l3.75,-21l3.75,21l11.25,4.81252l-11.25,3.93748l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_4" d="m250,254.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_5" d="m240,299.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_6" d="m310,324.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_7" d="m340,289.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_8" d="m345,79.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_9" d="m320,54.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_10" d="m365,24.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_11" d="m380,49.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_12" d="m425,44.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+  <path id="star_13" d="m465,54.875l-3.75,-20.125l-11.25,-3.9375l11.25,-4.8125l3.75,-21l3.75,21l11.25,4.8125l-11.25,3.9375l-3.75,20.125z" stroke-width="2" stroke="#aaffff" fill="#7f00ff"/>
+ </g>
+</svg>

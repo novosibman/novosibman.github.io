@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="neonGreen" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="neonOrange" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="grad_pillar_pylon_left" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="grad_pillar_pylon_right" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="grad_pillar_center_core" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="grad_blackhole_1" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <!--  5 Stars in Twin Pillars constellation  -->
+  <polygon points="400,98 406,112 421,113 409,123 413,138 400,130 387,138 391,123 379,113 394,112" id="star_1" stroke="none" stroke-width="2" fill="#facc15" data-cx="400" data-cy="120" data-r="22" />
+  <polygon points="220,148 226,162 241,163 229,173 233,188 220,180 207,188 211,173 199,163 214,162" id="star_2" stroke="none" stroke-width="2" fill="#facc15" data-cx="220" data-cy="170" data-r="22" />
+  <polygon points="580,148 586,162 601,163 589,173 593,188 580,180 567,188 571,173 559,163 574,162" id="star_3" stroke="none" stroke-width="2" fill="#facc15" data-cx="580" data-cy="170" data-r="22" />
+  <polygon points="310,208 316,222 331,223 319,233 323,248 310,240 297,248 301,233 289,223 304,222" id="star_4" stroke="none" stroke-width="2" fill="#facc15" data-cx="310" data-cy="230" data-r="22" />
+  <polygon points="490,208 496,222 511,223 499,233 503,248 490,240 477,248 481,233 469,223 484,222" id="star_5" stroke="none" stroke-width="2" fill="#facc15" data-cx="490" data-cy="230" data-r="22" />
+  <!--  Two-tier reinforced breakable walls  -->
+  <rect x="170" y="310" width="120" height="26" rx="4" id="pillar_glass_1" stroke="none" stroke-width="2" fill="rgba(56, 189, 248, 0.5)" class="breakable" data-hp="1" />
+  <rect x="320" y="310" width="160" height="26" rx="4" id="pillar_stone_mid" stroke="none" stroke-width="2" fill="#ef4444" class="breakable" data-hp="3" />
+  <rect x="510" y="310" width="120" height="26" rx="4" id="pillar_glass_2" stroke="none" stroke-width="2" fill="rgba(56, 189, 248, 0.5)" class="breakable" data-hp="1" />
+  <rect x="200" y="360" width="110" height="26" rx="4" id="pillar_stone_1" stroke="none" stroke-width="2" fill="#f59e0b" class="breakable" data-hp="2" />
+  <rect x="340" y="360" width="120" height="26" rx="4" id="pillar_glass_mid" stroke="none" stroke-width="2" fill="rgba(56, 189, 248, 0.5)" class="breakable" data-hp="1" />
+  <rect x="490" y="360" width="110" height="26" rx="4" id="pillar_stone_2" stroke="none" stroke-width="2" fill="#f59e0b" class="breakable" data-hp="2" />
+  <!--  Slanted energy guide pylons & central kinetic core  -->
+  <rect x="140" y="480" width="150" height="22" id="pillar_pylon_left" stroke="none" stroke-width="2" fill="url(#grad_pillar_pylon_left)" transform="rotate(35 215 491)" data-restitution="1.0" data-friction="0.0" />
+  <rect x="510" y="480" width="150" height="22" id="pillar_pylon_right" stroke="none" stroke-width="2" fill="url(#grad_pillar_pylon_right)" transform="rotate(-35 585 491)" data-restitution="1.0" data-friction="0.0" />
+  <circle cx="398" cy="598" r="38" id="pillar_center_core" stroke="none" stroke-width="2" fill="url(#grad_pillar_center_core)" data-restitution="1.0" data-friction="0.0" />
+  <circle cx="400" cy="480" r="24" id="blackhole_1" stroke="none" stroke-width="2" fill="url(#grad_blackhole_1)" data-restitution="1.0" data-friction="0.0" />
+</svg>
